@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node dist/app.js",
-    "dev": "nodemon --exec 'kill-port --port 3000 && ts-node --inspect=0.0.0.0:3000 src/app.ts'",
+    "dev": "nodemon src/app.ts",
     "build": "npx tsc -p ."
   },
   "keywords": [],
@@ -19,7 +19,6 @@
     "typescript": "^3.9.3"
   },
   "dependencies": {
-    "express": "^4.17.1",
-    "kill-port": "^1.6.0"
+    "express": "^4.17.1"
   }
 }
