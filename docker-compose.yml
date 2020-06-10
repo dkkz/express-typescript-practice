@@ -2,6 +2,8 @@ version: "3"
 services:
   node:
     container_name: express-ts
+    build: ./
+    container_name: express
     volumes:
       - .:/usr/src/app
       - /usr/src/app/node_modules
