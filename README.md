@@ -1,3 +1,5 @@
+![Node.js CI](https://github.com/dkkz/express-typescript-practice/workflows/Node.js%20CI/badge.svg)
+
 # Pactice TypeScript and Express
 
 Pactice Express use TypeScript and more.
