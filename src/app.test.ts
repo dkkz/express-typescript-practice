@@ -1,16 +1,16 @@
-import { Get } from "./root";
+import { Get } from './root';
 
-describe("greet", (): void => {
-  it("status 200 with id", () => {
+describe('greet', (): void => {
+  it('status 200 with id', () => {
     const req = {
       query: {
-        id: "greet"
-      }
+        id: 'greet',
+      },
     };
 
     const res = {
       status: jest.fn().mockReturnThis(),
-      send: jest.fn().mockReturnThis()
+      send: jest.fn().mockReturnThis(),
     };
 
     Get(req, res);
