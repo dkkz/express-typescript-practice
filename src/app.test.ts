@@ -1,5 +1,4 @@
 import { Get } from './root';
-
 describe('greet', (): void => {
   it('status 200 with id', () => {
     const req = {
